@@ -37,14 +37,14 @@
 	// Dropdowns.
 		$('#nav > ul').dropotron({
 			mode: 'fade',
-			speed: 350,
+			speed: 500,
 			noOpenerFade: true,
 			alignment: 'center'
 		});
 
 	// Scrolly.
 		$('.scrolly').scrolly({
-			speed: 1500,
+			speed: 2000,
 			offset: 0
 		});
 
