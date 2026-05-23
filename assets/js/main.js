@@ -1,6 +1,5 @@
 /*
-	Helios by HTML5 UP
-	html5up.net | @ajlkn
+	Gerald
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
@@ -44,7 +43,10 @@
 		});
 
 	// Scrolly.
-		$('.scrolly').scrolly();
+		$('.scrolly').scrolly({
+			speed: 1500,
+			offset: 0
+		});
 
 	// Nav.
 
