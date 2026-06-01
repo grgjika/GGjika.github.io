@@ -14,28 +14,74 @@
         html {
             scroll-behavior: smooth;
         }
-    </style>
-	</head>
-	<body class="homepage is-preload">
-		<div id="page-wrapper">
+    
+/* Logo styling */
+.site-logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 999;
+}
 
-			<!-- Header -->
-				<div id="header">
+.site-logo img {
+    height: 90px;
+    width: auto;
+}
 
-					<!-- Inner -->
-						<div class="inner">
-							<header>
-								<p>In any condition, without extra commissions, hussle free. </p>
-								<h1><a href="index.html" id="logo">Sell your house quickly to us</a></h1>
-								<hr />
-							</header>
-							<footer><a href="#banner"
-                             class="button scrolly"
-                            style="background-color: Blue; border-color: #D4AF37;">
-                             Continue
-                               </a>
-							</footer>
-						</div>
+/* Custom button */
+.consult-btn {
+    background-color: #0057ff !important;
+    border-color: #D4AF37 !important;
+    color: white !important;
+    padding: 15px 35px;
+    font-size: 1.2em;
+    border-radius: 50px;
+}
+
+.consult-btn:hover {
+    background-color: #003ecb !important;
+}
+</style>
+
+</head>
+
+<body class="homepage is-preload">
+<div id="page-wrapper">
+
+    <!-- Header -->
+    <div id="header">
+
+        <!-- Logo -->
+        <div class="site-logo">
+            <img src="images/logo.png" alt="Company Logo">
+        </div>
+
+        <!-- Inner -->
+        <div class="inner">
+            <header>
+                <p>In any condition, without extra commissions, hassle free.</p>
+
+                <h1>
+                    <a href="index.html" id="logo">
+                        Sell your house quickly to us
+                    </a>
+                </h1>
+
+                <hr />
+            </header>
+
+            <footer>
+                <a href="#banner"
+                   class="button scrolly consult-btn">
+                    Schedule a Free Consult
+                </a>
+            </footer>
+
+        </div>
+
+    </div>
+</div>
+</body>
 
 					<!-- Nav -->
 						<nav id="nav">
