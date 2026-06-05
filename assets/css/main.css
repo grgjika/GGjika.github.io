@@ -3151,14 +3151,4 @@ input, select, textarea {
 body {
     padding-top: 80px;
 }
-.site-logo {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    z-index: 10000;
-}
 
-.site-logo img {
-    height: 70px;
-    width: auto;
-}
