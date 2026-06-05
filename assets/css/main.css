@@ -3146,6 +3146,17 @@ input, select, textarea {
     background: rgba(255,255,255,0.95);
     box-shadow: 0 2px 10px rgba(0,0,0,0.15);
 }
+.site-logo {
+    position: fixed;
+    top: 8px;
+    left: 20px;
+    z-index: 10001;
+}
+
+.site-logo img {
+    height: 50px;
+    width: auto;
+}
 
 /* Push content below the fixed menu */
 body {
