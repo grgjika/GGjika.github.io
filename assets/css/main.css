@@ -2085,7 +2085,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #2B252C;
+			background: #0A1F44;
 		}
 
 			input[type="button"].alt:hover,
@@ -2146,7 +2146,7 @@ input, select, textarea {
 		.icon.circled {
 			position: relative;
 			display: inline-block;
-			background: #2b252c;
+			background: #0B2545;
 			color: #fff;
 			border-radius: 100%;
 			width: 3em;
