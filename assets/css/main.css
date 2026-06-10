@@ -3183,3 +3183,7 @@ body {
 .step h3 {
     margin-bottom: 10px;
 }
+/* Move hero text up */
+.inner {
+    transform: translateY(-50px);
+}
