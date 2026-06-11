@@ -3185,6 +3185,6 @@ body {
 }
 /* Move hero text up */
 .inner {
-    transform: translateY(-230px);
+    transform: translateY(-270px);
 	text-align: center;
 }
