@@ -2602,7 +2602,7 @@ input, select, textarea {
 		}
 
 			.carousel article.loading {
-				opacity: 1;
+				opacity: 0;
 			}
 
 			.carousel article .image {
