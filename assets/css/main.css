@@ -3186,7 +3186,7 @@ body {
 /* Center hero text */
 .inner {
     text-align: left;
-    transform: translateY(-350px);
+    transform: translateY(-260px);
 }
 
 /* Mobile fixes */
