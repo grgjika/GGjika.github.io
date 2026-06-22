@@ -3220,3 +3220,20 @@ body {
         max-width: 100%;
     }
 }
+.consult-btn {
+    display: inline-block;
+    padding: 14px 26px;
+    border-radius: 8px;
+    background: #D4AF37;
+    color: #111 !important;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.consult-btn:hover {
+    background: #b8922f;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
