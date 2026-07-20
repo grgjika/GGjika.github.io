@@ -2467,12 +2467,12 @@ h3, h4, h5, h6 {
 /* Footer */
 
 	#footer {
-		position: relative;
-		overflow: hidden;
-		padding: 6em 0 6em 0;
-		background: #2b252c;
-		color: #fff;
-	}
+    position: relative;
+    overflow: hidden;
+    padding: 6em 0 6em 0;
+    background: hsl(224, 91%, 14%);
+    color: #fff;
+}
 
 		#footer .icon.circled {
 			background: #fff;
@@ -3247,4 +3247,16 @@ body {
     background: #b8922f;
     transform: translateY(-2px);
     box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
+.contact-wide {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#map {
+    height: 295px;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
